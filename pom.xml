@@ -96,7 +96,7 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Landmark 
+	      <name>Landmark Technologies Releases Nexus Repository</name> 
 	      <url>http://34.229.144.51:8081/repository/freestyle-releases/</url>
 	    </repository>
 	    
