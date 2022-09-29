@@ -96,20 +96,20 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Releases Nexus Repository</name>
+	      <name>Landmark 
 	      <url>http://34.229.144.51:8081/repository/freestyle-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://34.229.144.51:8081/repository/freestyle-releases/</url>
+	      <url>http://34.229.144.51:8081/repository/freestyle-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>tesla</finalName>
+		<finalName>freestyle-project</finalName>
 		
 		<plugins>
 			<plugin>
