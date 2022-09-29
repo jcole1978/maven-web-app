@@ -97,20 +97,20 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url></url>http://54.226.219.87:8081/repository/tesla-fe-releases/
+	      <url>http://34.229.144.51:8081/repository/freestyle-releases/</url>
 
-	    </repository>
+	    </releasesRepository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.226.219.87:8081/repository/tesla-fe-snapshot/</url>
+	      <url>http://34.229.144.51:8081/repository/freestyle-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>maven-web-app</finalName>
+		<finalName>freestyle-project</finalName>
 		
 		<plugins>
 			<plugin>
